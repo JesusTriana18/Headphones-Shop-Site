@@ -76,8 +76,8 @@ header {
 
 .navbar a {
     font-size: 1rem;
-    font-weight: 500;
-    background: linear-gradient(#161616, #dddcfa);
+    font-weight: 700;
+    background: linear-gradient(#161616, #adadad);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -90,7 +90,7 @@ header {
 /* Home */
 
 .home-content {
-    min-height: 530px;
+    min-height: 590px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -130,11 +130,11 @@ header {
 .heading {
     text-align: center;
     font-size: 3.4rem;
-    background: linear-gradient(#161616, #dddcfa);
+    background: linear-gradient(#000000, #6e6e6e);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    margin-top: 3.5rem;
+    margin-top: 2.3rem;
     margin-bottom: 2.5rem;
 }
 
@@ -213,3 +213,39 @@ header {
 .shop-container .box .bx:hover{
     background-color: var(--hover-color);
 }
+
+/* Buds */ 
+.buds-container{
+    display: grid;
+    grid-template-columns: 250px max-content;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    background: var(--hover-color);
+    color: var(--bg-color);
+    border-radius: 0.5rem;
+}
+
+.buds-img{
+    width: 320px;
+}
+
+.buds-text h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.buds-text span{
+    font-weight: 400;
+}
+
+.buds-text p{
+    margin: 1rem 0 1rem;
+}
+
+.buds-text .btn:hover{
+    background: hsl(0, 0%, 10%);
+}
+
+/* Footer */
